@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_container_nav"
+    app:startDestination="@id/fragPrayer">
+
+    <fragment
+        android:id="@+id/fragPrayer"
+        android:name="com.yudi.jadwalsholat.app.ui.fragment.PrayerFragment">
+
+    </fragment>
+</navigation>

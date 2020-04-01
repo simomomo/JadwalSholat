@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/_15sdp"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:background="@android:color/transparent"
+    android:layout_marginRight="@dimen/_15sdp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/tv_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="Asr"
+        android:textColor="@color/colorTextSecondary"
+        android:textSize="@dimen/font_regular_large"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tv_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_toLeftOf="@+id/iv_notification"
+        android:singleLine="true"
+        android:text="15:09"
+        android:textColor="@color/colorTextSecondary"
+        android:textSize="@dimen/font_regular_large" />
+
+    <ImageView
+        android:id="@+id/iv_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        app:srcCompat="@drawable/ic_notification" />
+</RelativeLayout>
+

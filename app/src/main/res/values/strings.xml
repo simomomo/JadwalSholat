@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Jadwal Sholat</string>
+
+    <string name="login_error_title">Unknown Error</string>
+    <string name="login_error_message">Failed get data</string>
+
+    <string name="home_data_kosong_1">Data kosong</string>
+    <string name="home_data_kosong_2">Gagal mendapatkan data</string>
+
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Batal</string>
+</resources>
